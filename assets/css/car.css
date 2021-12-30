@@ -1,0 +1,145 @@
+/* 購物車 */
+#car_in {
+    position: fixed;
+    z-index: 20;
+    top: 0;
+    right: 0;
+    width: 550px;
+    height: 100vh;
+    margin-right: -550px;
+    background-image: url("../img/bg_car.jpg");
+    background-repeat: none;
+    background-size: cover;
+    color: #fcf5e7;
+}
+
+#car_close {
+    position: absolute;
+    top: 0;
+    right: 5%;
+    color: #ccb19a;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+#car_close:hover,
+#car_close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+#car_in h2 {
+    margin: 20px 20px 0 20px;
+}
+
+#car_in form {
+    border: none;
+    border-top: rgb(246, 196, 131) 2px solid;
+}
+
+#car_in .btn_in {
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #a85;
+    width: 190px;
+    padding: 10px 0;
+    color: #fff;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+#car_in .btn_in:hover {
+	background-color: #cb9e77;
+    color: #000;
+    cursor: pointer;
+}
+
+.car_pro {
+    border-radius: 20px;
+    display: flex;
+    width: 500px;
+    height: 200px;
+    margin: 20px;
+    border: 1px solid #545250;
+    background-color: rgba(0, 0, 0, .5);
+}
+
+.car_pro .pop_item{
+    color: #ccb19a;
+    font-size: 40px;
+    font-weight: bold;
+    height: 23px;
+    transition: 0.3s;
+}
+
+
+.car_pic {
+    float: left;
+    padding: 10px;
+}
+
+.car_txt {
+    margin-left: 5px;
+    float: left;
+}
+.car_txt input{
+    border: #a85 1px solid;
+    color: #fcf5e7;
+    background: 0 0;
+    font-size: 16px;
+}
+
+.car_price {
+    float: left;
+    text-align: center;
+    position: relative;
+}
+
+.car_price p {
+    position: relative;
+    top: 40%;
+    text-align: center;
+}
+
+.car_in_close {
+    position: relative;
+    top: -5px;
+    right: -55px;
+    font-size: 36px;
+    color: #545250;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.pop_item:hover,
+.pop_item:focus,
+.car_in_close:hover,
+.car_in_close:focus {
+    color: rgb(75, 75, 75);
+    text-decoration: none;
+    cursor: pointer;
+}
+.car_foot {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: 1px solid #545250;
+    background-color: rgba(0, 0, 0, .5);
+    padding: 10px;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+.car_foot .car_total{
+    flex: none;
+    margin: 10px;
+    font-size: 20px;
+}
+
+.car_foot .btn_in{
+    flex: none;
+}

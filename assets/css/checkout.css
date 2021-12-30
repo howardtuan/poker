@@ -1,0 +1,103 @@
+.checkout_body {
+	background-image: url(../img/bg_Diagon_Alley.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+}
+.checkout{
+	margin-top: 5%;
+	width: 1000px;
+	background-color: rgba(0, 0, 0, .5);
+	border-radius: 10px;
+	border: 10px solid #fff;
+	box-shadow: 0 0 60px #000;
+	backdrop-filter: blur(5px);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 60px;
+}
+
+.checkout form{
+	width: 80%;
+	color: white;
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
+
+.checkout .group input{
+	font-size: 24px;
+	background-color: white;
+}
+
+.checkout #member_name{
+	font-size: 24px;
+}
+
+
+.checkout .form h2 {
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #fff;
+	font-size: 24px;
+}
+.checkout .form .group {
+	margin-bottom: 20px;
+}
+.checkout .form label {
+	line-height: 2;
+}
+
+.checkout .form .id2 {
+	width: 100%;
+	border: 1px solid #aaa;
+	line-height: 2;
+	border-radius: 5px;
+	font-size: 24px;
+}
+.checkout .btn-group {
+	font-size: 0;
+	margin-top: 50px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.checkout .form .btn_in {
+	text-align: center;
+	flex: none;
+	font-size: 20px;
+	border-radius: 5px;
+	border: none;
+	background-color: #a85;
+	width: 190px;
+	padding: 10px 0;
+	color: #fff;
+}
+
+.checkout .btn_in:hover {
+	background-color: #cb9e77;
+    color: #000;
+}
+.checkout .form .btn-group a{
+	text-decoration: none;
+}
+
+.check .item_pro{
+	border-radius: 20px;
+    display: flex;
+    height: 200px;
+    margin: 20px;
+    border: 1px solid #545250;
+    background-color: rgba(0, 0, 0, .5);
+}
+.check .item_pic {
+    float: left;
+    padding: 10px;
+}
+
+.check .item_txt {
+    margin-left: 5px;
+    float: left;
+}

@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/car.css">
+
+
+
+  <script src="assets/js/jquery-2.1.4.min.js"></script>
+  <script src="assets/js/script.js"></script>
+  <script src="assets/js/car.js"></script>
+
+
+  <link rel="icon" href="assets/img/poker.ico">
+  <title>衛氏巫師法寶店</title>
+
+
+</head>
+
+<body class="intro_bg">
+
+  <section>
+
+
+    <nav id="nav">
+      <div class="logo nav"> <a href="index.html">衛氏巫師法寶店</a></div>
+      <div class="introduce nav"><a href="intro.html">產品介紹</a></div>
+      <div class="idea nav"><a href="idea.html">企業沿革</a></div>
+      <div class="about nav"><a href="about.html">關於我們</a></div>
+      <div class="login nav"><a href="login.html">會員專區</a></div>
+      <div class="car nav" id="car_move"><a href="#"> <img src="assets/img/car.png" alt="購物車" width="28" class="img_car"> </a></div>
+    </nav>
+  </section>
+  <!-- 購物車 -->
+  <div id="car_in">
+      <span id="car_close">&times;</span>
+      <h2>購物車</h2>
+      <form action="">
+          <div class="car_pro">
+              <!--第一個產品的空間-->
+
+              <div class="car_pic">
+                  <img src="assets/img/bicycle_red.jpeg" alt="" width="180" height="180">
+              </div>
+              <div class="car_txt">
+                  <p>基本牌</p>
+                  <p>經典紅色Bicycle</p>
+                  <input min="1" type="number" name="quantity" value="1">
+              </div>
+              <div class="car_price">
+                  <p>NT 60</p>
+              </div>
+              <span class="pop_item">&times;</span>
+          </div>
+          <div class="car_pro">
+              <!--第二個產品的空間-->
+
+              <div class="car_pic">
+                  <img src="assets/img/bicycle_red.jpeg" alt="" width="180" height="180">
+              </div>
+              <div class="car_txt">
+                  <p>基本牌</p>
+                  <p>經典紅色Bicycle</p>
+                  <input min="1" type="number" name="quantity" value="1">
+              </div>
+              <div class="car_price">
+                  <p>NT 60</p>
+              </div>
+              <span class="pop_item">&times;</span>
+          </div>
+          <div class="car_foot">
+              <section class="car_total">總金額：＄??</section>
+                  <input type="button" name="" value="結帳" id="pay_the_bill" class="btn_in" onclick="location.href='checkout.html'">
+          </div>
+      </form>
+  </div>
+  <div class="alert">
+    <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+    選購人人喜愛的佳節禮品，趁早開始。
+  </div>
+  <section>
+    <div id="wrapper">
+      <div id="slide">
+        <ul>
+          <li><img src="assets/img/avenger.png" width="1110" height="450" alt="img1"></li>
+          <li><img src="assets/img/harry1.jpeg" width="1110" height="450" alt="img2"></li>
+          <li><img src="assets/img/star_wars.jpeg" width="1110" height="450" alt="img3"></li>
+
+        </ul>
+
+        <button id="prevBtn"><img src="assets/img/prev.png" width="29" height="50" alt="Prev"></button>
+        <button id="nextBtn"><img src="assets/img/next.png" width="29" height="50" alt="Next"></button>
+
+      </div>
+    </div>
+  </section>
+  <section class="intro">
+    <div class="intro_title"><span>熱銷前三名｜</span>稱心稱手，超值入手
+    </div>
+    <div class="intro_pc">
+      <a href="detail1.html"><img src="assets/img/bicycle_red.jpeg" alt="產品圖" width="350" class="pic"></a>
+      <p class="title"> <a href="detail1.html">經典紅色Bicycle</a></p>
+      <a href=""><img src="assets/img/cir.jpeg" alt="產品圖" width="350" class="pic"></a>
+      <p class="title"><a href="">ECHO BLACK（絕版品）</a></p>
+      <a href=""><img src="assets/img/avenger.jpeg" alt="產品圖" width="350" class="pic"></a>
+      <p class="title"><a href="">Theory11 復仇者聯盟聯名撲克牌</a></p>
+    </div>
+  </section>
+  <section class="intro">
+    <div class="intro_title"><span>基本牌｜</span>我們重新定義了撲克牌，這僅僅只是開始。
+    </div>
+    <div class="intro_pc">
+      <a href="detail1.html"><img src="assets/img/bicycle_red.jpeg" alt="產品圖" width="350" class="pic"></a>
+      <p class="title"> <a href="detail1.html">經典紅色Bicycle</a></p>
+      <a href="http://"><img src="assets/img/bicycle_blue.jpeg" alt="產品圖" width="350" class="pic"></a>
+      <p class="title"><a href="http://">經典藍色Bicycle</a></p>
+      <a href="http://"><img src="assets/img/bicycle_black.jpeg" alt="產品圖" width="350" class="pic"></a>
+      <p class="title"><a href="http://"> 黑幽靈Bicycle</a></p>
+      <a href=""><img src="assets/img/blank.jpeg" alt="產品圖" width="350" class="pic"></a>
+      <p class="title"><a href=""> BLANK牌</a></p>
+      <a href="http://"><img src="assets/img/tally.jpeg" alt="產品圖" width="350" class="pic"></a>
+      <p class="title"><a href="http://">Tally Ho經典撲克牌</a></p>
+      <a href=""><img src="assets/img/dra.jpeg" alt="產品圖" width="350" class="pic"></a>
+      <p class="title"><a href="">EMPIRE龍牌</a></p>
+    </div>
+  </section>
+  <section class="intro">
+    <div class="intro_title"><span>特殊牌｜</span>唯一的不同，是處處不同。
+    </div>
+    <div class="intro_pc">
+      <a href=""><img src="assets/img/ice.jpeg" alt="產品圖" width="350" class="pic"></a>
+      <p class="title"><a href="">冰鎮撲克牌</a></p>
+
+      <a href=""><img src="assets/img/tiger_w.jpeg" alt="產品圖" width="350" class="pic"></a>
+      <p class="title"><a href=""> 虎王牌（白）</a></p>
+
+      <a href=""><img src="assets/img/tiger_y.jpeg" alt="產品圖" width="350" class="pic"></a>
+      <p class="title"><a href="">虎王牌（黃）</a> </p>
+
+      <a href=""><img src="assets/img/magician_a.jpeg" alt="產品圖" width="350" class="pic"></a>
+      <p class="title"><a href="">魔術師梗牌（彩色牌盒）</a> </p>
+
+      <a href=""><img src="assets/img/magician_b.jpeg" alt="產品圖" width="350" class="pic"></a>
+      <p class="title"><a href="">魔術師梗牌（黑白牌盒）</a> </p>
+
+      <a href=""><img src="assets/img/cir.jpeg" alt="產品圖" width="350" class="pic"></a>
+      <p class="title"><a href="">ECHO BLACK（絕版品）</a></p>
+
+    </div>
+  </section>
+  <section class="intro">
+    <div class="intro_title"><span>收藏牌｜</span>哪一面都是亮點。
+    </div>
+    <div class="intro_pc">
+      <a href=""><img src="assets/img/starwars.jpeg" alt="產品圖" width="350" class="pic"></a>
+      <p class="title"><a href="">Theory11 星際大戰聯名撲克牌</a></p>
+
+      <a href=""><img src="assets/img/wu_red.jpeg" alt="產品圖" width="350" class="pic"></a>
+      <p class="title"><a href="">萬象星河（紅)</a></p>
+
+      <a href=""><img src="assets/img/wu_blue.jpeg" alt="產品圖" width="350" class="pic"></a>
+      <p class="title"><a href="">萬象星河（藍)</a> </p>
+
+      <a href=""><img src="assets/img/monarchs.jpeg" alt="產品圖" width="350" class="pic"></a>
+      <p class="title"><a href="">Theory11 君主撲克牌</a></p>
+
+      <a href=""><img src="assets/img/avenger.jpeg" alt="產品圖" width="350" class="pic"></a>
+      <p class="title"><a href="">Theory11 復仇者聯盟聯名撲克牌</a></p>
+
+      <a href=""><img src="assets/img/bicycle_sp.jpeg" alt="產品圖" width="350" class="pic"></a>
+      <p class="title"><a href="">牡羊座Bicycle</a></p>
+
+    </div>
+  </section>
+</body>
+<footer class="footer">Vistors：?<br>© 2022 Magic ALL Rights Reserved.</footer>
+
+</html>

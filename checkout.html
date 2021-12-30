@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/checkout.css">
+    <link rel="stylesheet" href="assets/css/car.css">
+    <script src="assets/js/jquery-2.1.4.min.js"></script>
+    <script src="assets/js/member.js"></script>
+    <script src="assets/js/car.js"></script>
+    <link rel="icon" href="assets/img/poker.ico">
+    <title>衛氏巫師法寶店</title>
+    
+</head>
+
+<body class="checkout_body">
+     
+      
+    <section>
+        <nav id="nav">
+            <div class="logo nav"> <a href="index.html">衛氏巫師法寶店</a></div>
+            <div class="introduce nav"><a href="intro.html">產品介紹</a></div>
+            <div class="idea nav"><a href="idea.html">企業沿革</a></div>
+            <div class="about nav"><a href="about.html">關於我們</a></div>
+            <div class="login nav"><a href="login.html">會員專區</a></div>
+            <div class="car nav" id="car_move"><a href="#"> <img src="assets/img/car.png" alt="購物車" width="28" class="img_car"> </a>
+            </div>
+        </nav>
+    </section>
+    <!-- 購物車 -->
+    <div id="car_in">
+        <span id="car_close">&times;</span>
+        <h2>購物車</h2>
+        <form action="">
+            <div class="car_pro">
+                <!--第一個產品的空間-->
+  
+                <div class="car_pic">
+                    <img src="assets/img/bicycle_red.jpeg" alt="" width="180" height="180">
+                </div>
+                <div class="car_txt">
+                    <p>基本牌</p>
+                    <p>經典紅色Bicycle</p>
+                    <input min="1" type="number" name="quantity" value="1">
+                </div>
+                <div class="car_price">
+                    <p>NT 60</p>
+                </div>
+                <span class="pop_item">&times;</span>
+            </div>
+            <div class="car_pro">
+                <!--第二個產品的空間-->
+  
+                <div class="car_pic">
+                    <img src="assets/img/bicycle_red.jpeg" alt="" width="180" height="180">
+                </div>
+                <div class="car_txt">
+                    <p>基本牌</p>
+                    <p>經典紅色Bicycle</p>
+                    <input min="1" type="number" name="quantity" value="1">
+                </div>
+                <div class="car_price">
+                    <p>NT 60</p>
+                </div>
+                <span class="pop_item">&times;</span>
+            </div>
+            <div class="car_foot">
+                <section class="car_total">總金額：＄??</section>
+                    <input type="button" name="" value="結帳" id="pay_the_bill" class="btn_in" onclick="location.href='checkout.html'">
+            </div>
+        </form>
+    </div>
+    <section class="topset login_fakebody">
+
+        <div class="checkout">
+            <form action="" class="form">
+                <section class="check">
+                    <h2>確認訂單</h2>
+                    <div class="item_pro">
+                        <!--第一個產品的空間-->
+
+                        <div class="item_pic">
+                            <img src="assets/img/bicycle_red.jpeg" alt="" width="180" height="180">
+                        </div>
+                        <div class="item_txt">
+                            <p>基本牌</p>
+                            <p>經典紅色Bicycle</p>
+                            <p>數量：1</p>
+                            <p>總計：＄60</p>
+                        </div>
+                    </div>
+                    <div class="item_pro">
+                        <!--第二個產品的空間-->
+
+                        <div class="item_pic">
+                            <img src="assets/img/bicycle_red.jpeg" alt="" width="180" height="180">
+                        </div>
+                        <div class="item_txt">
+                            <p>基本牌</p>
+                            <p>經典紅色Bicycle</p>
+                            <p>數量：1</p>
+                            <p>總計：＄60</p>
+                        </div>
+                    </div>
+                </section>
+                <h2>收件資訊</h2>
+                <div class="group">
+                    <label for="receive_name">收件人姓名</label>
+                    <input type="text" name="" id="receive_name" class="id2" value="">
+                </div>
+                <div class="group">
+                    <label for="receive_mail">收件人信箱</label>
+                    <input type="text" name="" id="receive_name" class="id2" value="">
+                </div>
+                <div class="group">
+                    <label for="receive_phone">收件人電話</label>
+                    <input type="text" name="" id="receive_phone" class="id2" value="">
+                </div>
+                <div class="group">
+                    <label for="receive_address">收件地址</label>
+                    <input type="text" name="" id="receive_address" class="id2" value="">
+                </div>
+                <div class="btn-group">
+                    <input type="submit" name="" value="確認購買" class="btn_in">
+                    <!--
+                        button寫法如下
+                        <button class="btn_in">登入</button>
+                    -->
+                </div>
+
+        </div>
+    </section>
+</body>
+
+</html>
