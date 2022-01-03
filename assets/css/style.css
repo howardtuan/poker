@@ -1314,3 +1314,17 @@ li {
 	position: relative;
 	bottom: 3px;
 }
+.search_div {
+	margin-top: 4px;
+	padding-right:30px ;
+	width: 150px;
+	background-color: #272727;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	padding-top: 10px;
+	height: 33px;
+	flex: none;
+	text-align: center;
+	float: right;
+}
