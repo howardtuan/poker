@@ -1323,3 +1323,9 @@ li {
 	text-align: center;
 	float: right;
 }
+.search{
+	line-height: 25px;
+	border-radius: 5px;
+	position: relative;
+	bottom: 3px;
+}
