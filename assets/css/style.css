@@ -1308,3 +1308,9 @@ li {
 	color: #fff;
 	text-align: center;
 }
+.search{
+	line-height: 25px;
+	border-radius: 5px;
+	position: relative;
+	bottom: 3px;
+}
