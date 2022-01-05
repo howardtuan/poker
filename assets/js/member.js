@@ -35,7 +35,7 @@ function edit_finish() {
     edit_btn.style.display = "block";
     confirm_edit.style.display = "none";
     cancel_edit.style.display = "none";
-    history.style.display="none";
+    history.style.display="block";
 }
 
 function popout(){
