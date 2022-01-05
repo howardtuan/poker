@@ -80,40 +80,38 @@
     </div>
     <section class="topset login_fakebody">
 
-       <div class="checkout">
-            <form action="" class="form">
-                <section class="check">
-                    <h2>確認訂單</h2>
-                    <div class="item_pro">
-                        <!--第一個產品的空間-->
+        <div class="checkout">
+            <section class="check">
+                <h2>確認訂單</h2>
+                <div class="item_pro">
+                    <!--第一個產品的空間-->
 
-                        <div class="item_pic">
-                            <img src="assets/img/bicycle_red.jpeg" alt="" width="180" height="180">
-                        </div>
-                        <div class="item_txt">
-                            <p>基本牌</p>
-                            <p>經典紅色Bicycle</p>
-                            <p>數量：1</p>
-                            <p>總計：＄60</p>
-                        </div>
+                    <div class="item_pic">
+                        <img src="assets/img/bicycle_red.jpeg" alt="" width="180" height="180">
                     </div>
-                    <div class="item_pro">
-                        <!--第二個產品的空間-->
+                    <div class="item_txt">
+                        <p>基本牌</p>
+                        <p>經典紅色Bicycle</p>
+                        <p>數量：1</p>
+                        <p>總計：＄60</p>
+                    </div>
+                </div>
+                <div class="item_pro">
+                    <!--第二個產品的空間-->
 
-                        <div class="item_pic">
-                            <img src="assets/img/bicycle_red.jpeg" alt="" width="180" height="180">
-                        </div>
-                        <div class="item_txt">
-                            <p>基本牌</p>
-                            <p>經典紅色Bicycle</p>
-                            <p>數量：1</p>
-                            <p>總計：＄60</p>
-                        </div>
+                    <div class="item_pic">
+                        <img src="assets/img/bicycle_red.jpeg" alt="" width="180" height="180">
                     </div>
-                    <div class="car_foot">
-                        <section class="car_total">總金額：＄??</section>
+                    <div class="item_txt">
+                        <p>基本牌</p>
+                        <p>經典紅色Bicycle</p>
+                        <p>數量：1</p>
+                        <p>總計：＄60</p>
                     </div>
-                </section>
+                </div>
+            </section>
+            <form action="" class="form" method="post">
+                
                 <h2>收件資訊</h2>
                 <div class="group">
                     <label for="receive_name">收件人姓名</label>
@@ -132,7 +130,7 @@
                     <input type="text" name="" id="receive_address" class="id2" value="">
                 </div>
                 <div class="btn-group">
-                    <input type="submit" name="" value="確認購買" class="btn_in">
+                    <input type="submit" name="" value="確認購買" class="btn_in" onclick="checkout()">
                     <!--
                         button寫法如下
                         <button class="btn_in">登入</button>
@@ -140,6 +138,7 @@
                 </div>
             </form>
         </div>
+    </section>
                 
 </body>
 
