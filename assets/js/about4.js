@@ -5,7 +5,7 @@ var img = document.getElementById("myImg4");
 var modalImg = document.getElementById("img04");
 img.onclick = function () {
   modal.style.display = "block";
-  modalImg.src = "assets/img/test_model3.png";
+  modalImg.src = "assets/img/tin_ab.png";
 }
 // Get the <span> element that closes the modal
 var span = document.getElementsByClassName("close4")[0];
